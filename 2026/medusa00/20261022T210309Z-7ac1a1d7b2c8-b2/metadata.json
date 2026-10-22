@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "7ac1a1d7b2c83350f56fdd2a4f2100446996c66f",
+    "parents": [
+      "8b614d9a1f0d040b1534851b67f705be4537aed5",
+      "92cde17d8c4f10f01f35d61a0d8ced56ccfa11fd"
+    ],
+    "subject": "Merge pull request #7819 from v4xsh/fix-stackful-invoke-directly-7713",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-22T16:03:09-05:00",
+    "committer_date": "2026-10-22T16:03:09-05:00",
+    "pull_request": 7819,
+    "first_parent_count": 14147
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-22T21:12:52Z",
+    "finished": "2026-10-22T21:30:16Z",
+    "recorded": "2026-10-22T21:30:16+00:00",
+    "jenkins_build": "2",
+    "jenkins_build_url": "https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/2/",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
