@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "2ea47251a4b9b4e020b85845ace43e28846c5e38",
+    "parents": [
+      "94be100920ad49219fb7788c11fd2391931384ff",
+      "14cef03923a012802a01f2b00bc5fc7baf1767c0"
+    ],
+    "subject": "Merge pull request #6514 from vrnimje/cdash_perftest_bench",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-22T15:50:17-05:00",
+    "committer_date": "2026-10-22T15:50:17-05:00",
+    "pull_request": 6514,
+    "first_parent_count": 14144
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-22T20:55:26Z",
+    "finished": "2026-10-22T21:12:52Z",
+    "recorded": "2026-10-22T21:12:52+00:00",
+    "jenkins_build": "1",
+    "jenkins_build_url": "https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/1/",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
