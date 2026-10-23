@@ -4,8 +4,8 @@
 
 | Commit date | Commit | Pull request | Build | Node | Status |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-23T15:13:52Z | [85b03a1f4663](medusa00/20261023T151352Z-85b03a1f4663-b5/README.md) | [#7832](https://github.com/TheHPXProject/hpx/pull/7832) | 5 | medusa00 | passed |
-| 2026-10-23T11:25:54Z | [cacea4d26116](medusa00/20261023T112554Z-cacea4d26116-b4/README.md) | [#7829](https://github.com/TheHPXProject/hpx/pull/7829) | 4 | medusa00 | passed |
-| 2026-10-22T21:30:41Z | [eaff5b9649bb](medusa00/20261022T213041Z-eaff5b9649bb-b3/README.md) | [#7831](https://github.com/TheHPXProject/hpx/pull/7831) | 3 | medusa00 | passed |
-| 2026-10-22T21:03:09Z | [7ac1a1d7b2c8](medusa00/20261022T210309Z-7ac1a1d7b2c8-b2/README.md) | [#7819](https://github.com/TheHPXProject/hpx/pull/7819) | 2 | medusa00 | passed |
-| 2026-10-22T20:50:17Z | [2ea47251a4b9](medusa00/20261022T205017Z-2ea47251a4b9-b1/README.md) | [#6514](https://github.com/TheHPXProject/hpx/pull/6514) | 1 | medusa00 | passed |
+| 2026-10-23T15:13:52Z | [85b03a1f4663](medusa00/20261023T151352Z-85b03a1f4663-b5/README.md) | [#7832](https://github.com/TheHPXProject/hpx/pull/7832) | [5](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/5/) | medusa00 | passed |
+| 2026-10-23T11:25:54Z | [cacea4d26116](medusa00/20261023T112554Z-cacea4d26116-b4/README.md) | [#7829](https://github.com/TheHPXProject/hpx/pull/7829) | [4](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/4/) | medusa00 | passed |
+| 2026-10-22T21:30:41Z | [eaff5b9649bb](medusa00/20261022T213041Z-eaff5b9649bb-b3/README.md) | [#7831](https://github.com/TheHPXProject/hpx/pull/7831) | [3](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/3/) | medusa00 | passed |
+| 2026-10-22T21:03:09Z | [7ac1a1d7b2c8](medusa00/20261022T210309Z-7ac1a1d7b2c8-b2/README.md) | [#7819](https://github.com/TheHPXProject/hpx/pull/7819) | [2](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/2/) | medusa00 | passed |
+| 2026-10-22T20:50:17Z | [2ea47251a4b9](medusa00/20261022T205017Z-2ea47251a4b9-b1/README.md) | [#6514](https://github.com/TheHPXProject/hpx/pull/6514) | [1](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/1/) | medusa00 | passed |
