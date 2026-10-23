@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "2058cc119343619e2733ff43b099b06e1835b22f",
+    "parents": [
+      "076e45a6ceb919f3fc1f820a1b0a456bb9b90796"
+    ],
+    "subject": "Add the performance test references of medusa12",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-23T14:31:02-05:00",
+    "committer_date": "2026-10-23T14:31:02-05:00",
+    "pull_request": null,
+    "first_parent_count": 14155
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-23T19:35:17Z",
+    "finished": "2026-10-23T19:52:43Z",
+    "recorded": "2026-10-23T19:52:44+00:00",
+    "jenkins_build": "9",
+    "jenkins_build_url": "https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/9/",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
