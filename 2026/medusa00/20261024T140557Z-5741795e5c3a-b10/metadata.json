@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "5741795e5c3ad637b3d03895d89c52e80797d102",
+    "parents": [
+      "2058cc119343619e2733ff43b099b06e1835b22f",
+      "0fb56b89ee5eebc19c6bc88e362c992d29a743e4"
+    ],
+    "subject": "Merge pull request #7845 from TheHPXProject/scheduler-align-per-worker-data",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-24T09:05:57-05:00",
+    "committer_date": "2026-10-24T09:05:57-05:00",
+    "pull_request": 7845,
+    "first_parent_count": 14156
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-24T15:13:19Z",
+    "finished": "2026-10-24T15:31:01Z",
+    "recorded": "2026-10-24T15:31:02+00:00",
+    "jenkins_build": "10",
+    "jenkins_build_url": "https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/10/",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
