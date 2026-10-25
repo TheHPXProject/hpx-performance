@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "585b332c4aeb02f1cb0a969176143eb8c9d76e0d",
+    "parents": [
+      "c9c9f3e1a70e3dc283ccfd2a4d576493ad03d3db",
+      "9673e919fe9a23f5a97f614a9c0b25951f222fee"
+    ],
+    "subject": "Merge pull request #7858 from TheHPXProject/ci-windows-vcpkg-cache",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-24T16:53:59-05:00",
+    "committer_date": "2026-10-24T16:53:59-05:00",
+    "pull_request": 7858,
+    "first_parent_count": 14160
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-25T04:38:39Z",
+    "finished": "2026-10-25T04:56:23Z",
+    "recorded": "2026-10-25T04:56:23+00:00",
+    "jenkins_build": "14",
+    "jenkins_build_url": "https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/14/",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
