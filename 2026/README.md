@@ -4,6 +4,7 @@
 
 | Commit date | Commit | Pull request | Build | Node | Status |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-25T14:27:14Z | [27381afefe1f](medusa00/20261025T142714Z-27381afefe1f-b15/README.md) | [#7860](https://github.com/TheHPXProject/hpx/pull/7860) | [15](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/15/) | medusa00 | passed |
 | 2026-10-24T21:53:59Z | [585b332c4aeb](medusa00/20261024T215359Z-585b332c4aeb-b14/README.md) | [#7858](https://github.com/TheHPXProject/hpx/pull/7858) | [14](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/14/) | medusa00 | passed |
 | 2026-10-24T18:01:41Z | [c9c9f3e1a70e](medusa00/20261024T180141Z-c9c9f3e1a70e-b13/README.md) | [#7833](https://github.com/TheHPXProject/hpx/pull/7833) | [13](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/13/) | medusa00 | passed |
 | 2026-10-24T14:32:01Z | [9afb016babde](medusa00/20261024T143201Z-9afb016babde-b12/README.md) | [#7787](https://github.com/TheHPXProject/hpx/pull/7787) | [12](https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/12/) | medusa00 | passed |

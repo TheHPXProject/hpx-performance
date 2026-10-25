@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "27381afefe1f02a11e9739d2230912ede995e76f",
+    "parents": [
+      "585b332c4aeb02f1cb0a969176143eb8c9d76e0d",
+      "1c1413a1b43868f602e8602c47438cfec7e66fad"
+    ],
+    "subject": "Merge pull request #7860 from Vaatsal-source/fix/chunk-size-iterator-clamp",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-25T09:27:14-05:00",
+    "committer_date": "2026-10-25T09:27:14-05:00",
+    "pull_request": 7860,
+    "first_parent_count": 14161
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-25T17:18:12Z",
+    "finished": "2026-10-25T17:35:51Z",
+    "recorded": "2026-10-25T17:35:52+00:00",
+    "jenkins_build": "15",
+    "jenkins_build_url": "https://rostam.cct.lsu.edu/jenkins/job/HPX-performance-history/15/",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
