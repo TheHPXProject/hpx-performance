@@ -158,6 +158,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [acc9d1823949](2026/medusa00/20261027T152111Z-acc9d1823949-b0/README.md) | [#7896](https://github.com/TheHPXProject/hpx/pull/7896) | hpx::partial_sort, size: 100000, step: 1000 (par) | -5% |
 | 8 | [d13eb7506802](2026/medusa00/20261027T135959Z-d13eb7506802-b0/README.md) | [#7848](https://github.com/TheHPXProject/hpx/pull/7848) | hpx::partial_sort, size: 100000 (par) | +10% |
 |  |  |  | hpx::partial_sort, size: 100000, step: 1000 (par) | +20% |
 | 7 | [d6cd9372b23e](2026/medusa00/20261027T113128Z-d6cd9372b23e-b0/README.md) | [#7872](https://github.com/TheHPXProject/hpx/pull/7872) | hpx::partial_sort, size: 100000, step: 1000 (par) | -14% |

@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "acc9d182394985df7fafe7a90df397f79927d4c5",
+    "parents": [
+      "d13eb7506802c25ccf71bf7079b26fd42d83098a",
+      "2f382a2548b52b7390194d7ba8d50769d798cb6e"
+    ],
+    "subject": "Merge pull request #7896 from Ishaan400/readme-discord",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-27T10:21:11-05:00",
+    "committer_date": "2026-10-27T10:21:11-05:00",
+    "pull_request": 7896,
+    "first_parent_count": 14184
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-27T23:18:48Z",
+    "finished": "2026-10-27T23:35:04Z",
+    "recorded": "2026-10-27T23:35:05+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
