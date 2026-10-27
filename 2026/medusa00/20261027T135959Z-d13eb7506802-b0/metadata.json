@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "d13eb7506802c25ccf71bf7079b26fd42d83098a",
+    "parents": [
+      "440a78d5bbb4f41b53d321ef0a35f914c5ddb225",
+      "3559e4feb1f10a13b41bb6b5618a32f13d2ce96c"
+    ],
+    "subject": "Merge pull request #7848 from v4xsh/task-size-7837",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-10-27T08:59:59-05:00",
+    "committer_date": "2026-10-27T08:59:59-05:00",
+    "pull_request": 7848,
+    "first_parent_count": 14183
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-10-27T22:59:53Z",
+    "finished": "2026-10-27T23:16:07Z",
+    "recorded": "2026-10-27T23:16:08+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
