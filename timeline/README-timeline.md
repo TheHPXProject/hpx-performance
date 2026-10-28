@@ -61,6 +61,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [3094e4aae085](../2026/medusa00/20261028T001141Z-3094e4aae085-b0/README.md) | [#7888](https://github.com/TheHPXProject/hpx/pull/7888) | hpx::nth_element, size: 100000, step: 5000 (seq) | +6% |
 | 8 | [9508ff15ff41](../2026/medusa00/20261027T112827Z-9508ff15ff41-b0/README.md) | [#7711](https://github.com/TheHPXProject/hpx/pull/7711) | hpx::nth_element, size: 100000, step: 5000 (seq) | -9% |
 | 7 | [0bb4fe759234](../2026/medusa00/20261026T212323Z-0bb4fe759234-b0/README.md) | [#7809](https://github.com/TheHPXProject/hpx/pull/7809) | hpx::nth_element, size: 100000, step: 5000 (seq) | +12% |
 | 6 | [9925ce705b23](../2026/medusa00/20261026T211303Z-9925ce705b23-b0/README.md) | [#7886](https://github.com/TheHPXProject/hpx/pull/7886) | hpx::nth_element, size: 100000, step: 5000 (seq) | -11% |
@@ -229,6 +230,18 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
 | 1 | [d6cd9372b23e](../2026/medusa00/20261027T113128Z-d6cd9372b23e-b0/README.md) | [#7872](https://github.com/TheHPXProject/hpx/pull/7872) | future overhead - create_thread_hierarchical - latch (no-executor) | -7% |
+
+### scheduler_latency_report
+
+![scheduler_latency_report](scheduler_latency_report.svg)
+
+No median moved by more than 5% against the median of the 3 runs before it.
+
+### scheduler_throughput_report
+
+![scheduler_throughput_report](scheduler_throughput_report.svg)
+
+No median moved by more than 5% against the median of the 3 runs before it.
 
 ### small_vector_benchmark
 
