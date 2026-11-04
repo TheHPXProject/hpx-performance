@@ -17,7 +17,7 @@ The results of the performance tests of [HPX](https://github.com/TheHPXProject/h
 
 ![benchmark_inplace_merge](timeline/benchmark_inplace_merge.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_is_heap](timeline/benchmark_is_heap.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_is_heap_until](timeline/benchmark_is_heap_until.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -50,7 +50,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_merge](timeline/benchmark_merge.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -72,18 +72,19 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_nth_element](timeline/benchmark_nth_element.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+| 8 | [280a90ed311b](2026/medusa00/20261028T142049Z-280a90ed311b-b0/README.md) | [#7901](https://github.com/TheHPXProject/hpx/pull/7901) | hpx::nth_element, size: 100000, step: 5000 (seq) | -8% |
 |  | [3094e4aae085](2026/medusa00/20261028T001141Z-3094e4aae085-b0/README.md) | [#7888](https://github.com/TheHPXProject/hpx/pull/7888) | hpx::nth_element, size: 100000, step: 5000 (seq) | +6% |
-| 8 | [9508ff15ff41](2026/medusa00/20261027T112827Z-9508ff15ff41-b0/README.md) | [#7711](https://github.com/TheHPXProject/hpx/pull/7711) | hpx::nth_element, size: 100000, step: 5000 (seq) | -9% |
-| 7 | [0bb4fe759234](2026/medusa00/20261026T212323Z-0bb4fe759234-b0/README.md) | [#7809](https://github.com/TheHPXProject/hpx/pull/7809) | hpx::nth_element, size: 100000, step: 5000 (seq) | +12% |
-| 6 | [9925ce705b23](2026/medusa00/20261026T211303Z-9925ce705b23-b0/README.md) | [#7886](https://github.com/TheHPXProject/hpx/pull/7886) | hpx::nth_element, size: 100000, step: 5000 (seq) | -11% |
-| 5 | [924c62330602](2026/medusa00/20261026T211221Z-924c62330602-b0/README.md) | [#7874](https://github.com/TheHPXProject/hpx/pull/7874) | hpx::nth_element, size: 100000, step: 5000 (seq) | +8% |
+| 7 | [9508ff15ff41](2026/medusa00/20261027T112827Z-9508ff15ff41-b0/README.md) | [#7711](https://github.com/TheHPXProject/hpx/pull/7711) | hpx::nth_element, size: 100000, step: 5000 (seq) | -9% |
+| 6 | [0bb4fe759234](2026/medusa00/20261026T212323Z-0bb4fe759234-b0/README.md) | [#7809](https://github.com/TheHPXProject/hpx/pull/7809) | hpx::nth_element, size: 100000, step: 5000 (seq) | +12% |
+| 5 | [9925ce705b23](2026/medusa00/20261026T211303Z-9925ce705b23-b0/README.md) | [#7886](https://github.com/TheHPXProject/hpx/pull/7886) | hpx::nth_element, size: 100000, step: 5000 (seq) | -11% |
+| 4 | [924c62330602](2026/medusa00/20261026T211221Z-924c62330602-b0/README.md) | [#7874](https://github.com/TheHPXProject/hpx/pull/7874) | hpx::nth_element, size: 100000, step: 5000 (seq) | +8% |
 |  | [b07138598e83](2026/medusa00/20261026T210849Z-b07138598e83-b0/README.md) | [#7883](https://github.com/TheHPXProject/hpx/pull/7883) | hpx::nth_element, size: 100000, step: 5000 (seq) | +8% |
 |  | [55ef914598c3](2026/medusa00/20261026T104728Z-55ef914598c3-b0/README.md) | [#7784](https://github.com/TheHPXProject/hpx/pull/7784) | hpx::nth_element, size: 100000, step: 5000 (seq) | -7% |
-| 4 | [ff9e673a5887](2026/medusa00/20261026T102649Z-ff9e673a5887-b0/README.md) | [#7864](https://github.com/TheHPXProject/hpx/pull/7864) | hpx::nth_element, size: 100000, step: 5000 (seq) | +8% |
+|  | [ff9e673a5887](2026/medusa00/20261026T102649Z-ff9e673a5887-b0/README.md) | [#7864](https://github.com/TheHPXProject/hpx/pull/7864) | hpx::nth_element, size: 100000, step: 5000 (seq) | +8% |
 |  | [6b30e62af6bf](2026/medusa00/20261025T224510Z-6b30e62af6bf-b0/README.md) | [#7828](https://github.com/TheHPXProject/hpx/pull/7828) | hpx::nth_element, size: 100000, step: 5000 (seq) | -7% |
 |  | [f251b51f33b2](2026/medusa00/20261024T141942Z-f251b51f33b2-b11/README.md) | [#7836](https://github.com/TheHPXProject/hpx/pull/7836) | hpx::nth_element, size: 100000, step: 5000 (seq) | -6% |
 | 3 | [076e45a6ceb9](2026/medusa00/20261023T191320Z-076e45a6ceb9-b8/README.md) | [#7769](https://github.com/TheHPXProject/hpx/pull/7769) | hpx::nth_element, size: 100000, step: 5000 (seq) | +15% |
@@ -96,7 +97,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_nth_element_parallel](timeline/benchmark_nth_element_parallel.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -119,10 +120,11 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_partial_sort](timeline/benchmark_partial_sort.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [280a90ed311b](2026/medusa00/20261028T142049Z-280a90ed311b-b0/README.md) | [#7901](https://github.com/TheHPXProject/hpx/pull/7901) | hpx::partial_sort, size: 100000 (seq) | +14% |
 |  | [36db49497c30](2026/medusa00/20261027T180041Z-36db49497c30-b0/README.md) | [#7894](https://github.com/TheHPXProject/hpx/pull/7894) | hpx::partial_sort, size: 100000 (seq) | +24% |
 | 8 | [ef73e452dfbd](2026/medusa00/20261027T175908Z-ef73e452dfbd-b0/README.md) | [#7889](https://github.com/TheHPXProject/hpx/pull/7889) | hpx::partial_sort, size: 100000 (seq) | -31% |
 | 7 | [d13eb7506802](2026/medusa00/20261027T135959Z-d13eb7506802-b0/README.md) | [#7848](https://github.com/TheHPXProject/hpx/pull/7848) | hpx::partial_sort, size: 100000 (seq) | +45% |
@@ -157,7 +159,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_partial_sort_parallel](timeline/benchmark_partial_sort_parallel.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -192,7 +194,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_remove](timeline/benchmark_remove.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -203,7 +205,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![benchmark_remove_if](timeline/benchmark_remove_if.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -234,13 +236,13 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![foreach_report](timeline/foreach_report.svg)
 
-No median moved by more than 5% against the median of the 3 runs before it.
+No median moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change.
 
 ### future_overhead_report
 
 ![future_overhead_report](timeline/future_overhead_report.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -250,19 +252,19 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![scheduler_latency_report](timeline/scheduler_latency_report.svg)
 
-No median moved by more than 5% against the median of the 3 runs before it.
+No median moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change.
 
 ### scheduler_throughput_report
 
 ![scheduler_throughput_report](timeline/scheduler_throughput_report.svg)
 
-No median moved by more than 5% against the median of the 3 runs before it.
+No median moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change.
 
 ### small_vector_benchmark
 
 ![small_vector_benchmark](timeline/small_vector_benchmark.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -273,7 +275,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![stream_report](timeline/stream_report.svg)
 
-Medians that moved by more than 5% against the median of the 3 runs before them (+ is slower); the numbers are those on the graph.
+Medians that moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change (+ is slower); the numbers are those on the graph.
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
@@ -293,7 +295,7 @@ Medians that moved by more than 5% against the median of the 3 runs before them 
 
 ![transform_reduce_scaling](timeline/transform_reduce_scaling.svg)
 
-No median moved by more than 5% against the median of the 3 runs before it.
+No median moved by more than 5% against the median of up to 3 runs before it, not reaching back past the last change.
 
 ## License
 
