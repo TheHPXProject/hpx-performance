@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "88071b955a3f632d48b52408bf4491e13c39db70",
+    "parents": [
+      "6a148399c192a070e60bfd245d3858dc6d1f38b2",
+      "f73c8a9939135602f08670f2883a6a1369c64fc0"
+    ],
+    "subject": "Merge pull request #7670 from the-ivii/algorithms/p3179-range-queries",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-04T13:58:47-06:00",
+    "committer_date": "2026-11-04T13:58:47-06:00",
+    "pull_request": 7670,
+    "first_parent_count": 14235
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-04T23:38:16Z",
+    "finished": "2026-11-05T00:04:08Z",
+    "recorded": "2026-11-05T00:04:08+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
