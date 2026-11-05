@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "ff30aa01f64f0976f7d047164fccac67abf650ca",
+    "parents": [
+      "326fe34cf5215b95427c22edc582ebc141a3111b",
+      "7a38f88c6a31422f96e8b1561663ae7225d8c5b2"
+    ],
+    "subject": "Merge pull request #7973 from TheHPXProject/remove-stdexec-tag-invoke",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-05T07:21:36-06:00",
+    "committer_date": "2026-11-05T07:21:36-06:00",
+    "pull_request": 7973,
+    "first_parent_count": 14246
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-05T14:42:16Z",
+    "finished": "2026-11-05T15:08:18Z",
+    "recorded": "2026-11-05T15:08:19+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
