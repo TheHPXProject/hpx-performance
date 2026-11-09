@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "2c449c50b3a4eba01fe8fde61449206e205f514d",
+    "parents": [
+      "20da13211d9ed60ac5356e76c783fe744e9946b3",
+      "39277b15bc603294ae1d2174ddc0d666bf6120d7"
+    ],
+    "subject": "Merge pull request #8015 from TheHPXProject/fix-await-terminal-epoch-mismatch-race",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-09T09:36:00-06:00",
+    "committer_date": "2026-11-09T09:36:00-06:00",
+    "pull_request": 8015,
+    "first_parent_count": 14286
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-09T17:55:37Z",
+    "finished": "2026-11-09T18:21:46Z",
+    "recorded": "2026-11-09T18:21:46+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
