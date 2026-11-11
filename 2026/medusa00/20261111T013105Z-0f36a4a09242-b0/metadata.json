@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "0f36a4a09242fb2d4930f0a6270188044f7d13b2",
+    "parents": [
+      "88925dfc0c20d00f0557041d9d7b76fd46eb2959",
+      "b6522f612e8a02c5f57004fc3368c4666aa6dd56"
+    ],
+    "subject": "Merge pull request #7965 from aneek22112007-tech/fix-put-parcel-reschedule-error",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-10T19:31:05-06:00",
+    "committer_date": "2026-11-10T19:31:05-06:00",
+    "pull_request": 7965,
+    "first_parent_count": 14298
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-11T04:58:57Z",
+    "finished": "2026-11-11T05:25:08Z",
+    "recorded": "2026-11-11T05:25:08+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
