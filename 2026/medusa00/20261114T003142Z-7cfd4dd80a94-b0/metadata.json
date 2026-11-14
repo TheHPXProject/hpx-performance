@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "7cfd4dd80a94a068fb9b3b18e7ffc9e99a4e81d8",
+    "parents": [
+      "4df84c175b63c646b6a17f2a1a197b9f7c886c88",
+      "592bec176a273fae598e7e0368ab2582c87d04a6"
+    ],
+    "subject": "Merge pull request #8004 from Ishaan400/ranges-sentinel-support",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-13T18:31:42-06:00",
+    "committer_date": "2026-11-13T18:31:42-06:00",
+    "pull_request": 8004,
+    "first_parent_count": 14333
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-14T22:46:56Z",
+    "finished": "2026-11-14T23:12:49Z",
+    "recorded": "2026-11-14T23:12:50+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
