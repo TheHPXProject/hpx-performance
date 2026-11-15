@@ -21,7 +21,7 @@ The lasting changes: a step of more than 5% between the median of 5 runs and tha
 
 ![since v2.0.0](timeline/overview-v2.0.0.svg)
 
-Measurements whose level goes up and down, so that their changes are not attributed to pull requests: hpx::heap_until (par_unseq), hpx::inplace_merge (par), hpx::inplace_merge (par_unseq), hpx::is_heap (par_unseq), hpx::is_heap (seq), hpx::nth_element, size: 100000, step: 5000 (par), hpx::partial_sort, size: 100000 (seq), hpx::partial_sort, size: 100000, step: 1000 (par), hpx::remove (par_unseq), hpx::remove_if (par_unseq), hpx::remove_if (seq), scheduler throughput - steal (parallel_executor).
+Measurements whose level goes up and down, so that their changes are not attributed to pull requests: hpx::heap_until (par_unseq), hpx::inplace_merge (par), hpx::inplace_merge (par_unseq), hpx::is_heap (par_unseq), hpx::is_heap (seq), hpx::nth_element, size: 100000, step: 5000 (par), hpx::partial_sort, size: 100000 (par), hpx::partial_sort, size: 100000 (seq), hpx::partial_sort, size: 100000, step: 1000 (par), hpx::remove (par_unseq), hpx::remove_if (par_unseq), hpx::remove_if (seq), scheduler throughput - steal (parallel_executor).
 
 ### Pull requests that changed performance
 
@@ -47,7 +47,6 @@ The commits after which a measurement changed for good since v2.0.0, and at leas
 |  |  | scheduler throughput - spawnself (parallel_executor) | -35% |
 |  |  | scheduler latency - batch (parallel_executor) | -35% |
 |  |  | Stream benchmark - Add (parallel_executor_default_parallel_policy_allocator) | +13% |
-| [#7918](https://github.com/TheHPXProject/hpx/pull/7918) | [2026-10-31](2026/medusa00/20261031T114057Z-85ed2bc23e4d-b0/README.md) | hpx::partial_sort, size: 100000 (par) | -13% |
 | [#7926](https://github.com/TheHPXProject/hpx/pull/7926) | [2026-10-31](2026/medusa00/20261031T113857Z-4b2db341e39e-b0/README.md) | hpx::small_vector (int, 16) | -36% |
 |  |  | hpx::nth_element, size: 1000, step: 1 (seq) | +55% |
 |  |  | hpx::nth_element, size: 100000, step: 5000 (seq) | +19% |
@@ -55,7 +54,6 @@ The commits after which a measurement changed for good since v2.0.0, and at leas
 |  |  | hpx::remove (par) | +14% |
 |  |  | hpx::small_vector (fxn:void(), 8) | -6% |
 |  |  | hpx::partial_sort, size: 1000, step: 1 (seq) | +5% |
-| [#7848](https://github.com/TheHPXProject/hpx/pull/7848) | [2026-10-27](2026/medusa00/20261027T135959Z-d13eb7506802-b0/README.md) | hpx::partial_sort, size: 100000 (par) | +6% |
 | [#7872](https://github.com/TheHPXProject/hpx/pull/7872) | [2026-10-27](2026/medusa00/20261027T113128Z-d6cd9372b23e-b0/README.md) | future overhead - create_thread_hierarchical - latch (no-executor) | -7% |
 | [#7879](https://github.com/TheHPXProject/hpx/pull/7879) | [2026-10-26](2026/medusa00/20261026T210937Z-2acdd1c7de18-b0/README.md) | hpx::merge (par_unseq) | -5% |
 | [#7864](https://github.com/TheHPXProject/hpx/pull/7864) | [2026-10-26](2026/medusa00/20261026T102649Z-ff9e673a5887-b0/README.md) | hpx::small_vector (fxn:void(), 4) | +5% |
@@ -302,6 +300,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [c56cc03bbe20](2026/medusa00/20261115T142249Z-c56cc03bbe20-b0/README.md) | [#8084](https://github.com/TheHPXProject/hpx/pull/8084) | hpx::partial_sort, size: 100000 (seq) | +24% |
 |  | [e4271b2fd61e](2026/medusa00/20261115T142037Z-e4271b2fd61e-b0/README.md) | [#8083](https://github.com/TheHPXProject/hpx/pull/8083) | hpx::partial_sort, size: 100000 (seq) | +6% |
 |  | [23543756c6fc](2026/medusa00/20261115T141852Z-23543756c6fc-b0/README.md) | [#8079](https://github.com/TheHPXProject/hpx/pull/8079) | hpx::partial_sort, size: 1000, step: 1 (seq) | +5% |
 |  |  |  | hpx::partial_sort, size: 100000 (seq) | +8% |
