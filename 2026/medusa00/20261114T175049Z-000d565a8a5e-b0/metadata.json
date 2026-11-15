@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "000d565a8a5e62d536bb112f3fcc29aaebd349d2",
+    "parents": [
+      "4bee1ae724379797c6afebe68dcc142c15174b7e",
+      "5d94d3dc2bfc05da13e71be7e962ddf14e4e2af8"
+    ],
+    "subject": "Merge pull request #8093 from divyanshitalreja12/tests/fix-swap-ranges-sentinel",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-14T11:50:49-06:00",
+    "committer_date": "2026-11-14T11:50:49-06:00",
+    "pull_request": 8093,
+    "first_parent_count": 14337
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-15T00:32:15Z",
+    "finished": "2026-11-15T00:58:02Z",
+    "recorded": "2026-11-15T00:58:02+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
