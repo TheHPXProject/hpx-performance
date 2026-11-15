@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "e4271b2fd61ee63bddfd1e22bc652bd879eb2d4e",
+    "parents": [
+      "23543756c6fcf547d77ee8cc208d5195653ffba5",
+      "e5a6f2a57f0a99a97a256b6ad8843c04e00bced6"
+    ],
+    "subject": "Merge pull request #8083 from divyanshitalreja12/algorithms/sender-scan-partitioner",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-15T08:20:37-06:00",
+    "committer_date": "2026-11-15T08:20:37-06:00",
+    "pull_request": 8083,
+    "first_parent_count": 14348
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-15T15:53:35Z",
+    "finished": "2026-11-15T16:19:27Z",
+    "recorded": "2026-11-15T16:19:27+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
