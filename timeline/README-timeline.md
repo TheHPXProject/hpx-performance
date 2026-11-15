@@ -1,3 +1,50 @@
+### Overview
+
+The lasting changes: a step of more than 5% between the median of 5 runs and that of the 5 runs before it, for the measurements whose level doesn't go up and down. The net change compares the median of the last runs of a measurement with that of its first runs (the graph on the right of each benchmark shows where it came from).
+
+![since the first runs](overview-start.svg)
+
+![since v2.0.0](overview-v2.0.0.svg)
+
+Measurements whose level goes up and down, so that their changes are not attributed to pull requests: hpx::heap_until (par_unseq), hpx::inplace_merge (par), hpx::inplace_merge (par_unseq), hpx::is_heap (par_unseq), hpx::is_heap (seq), hpx::nth_element, size: 100000, step: 5000 (par), hpx::partial_sort, size: 100000 (par), hpx::partial_sort, size: 100000 (seq), hpx::partial_sort, size: 100000, step: 1000 (par), hpx::remove (par_unseq), hpx::remove_if (par_unseq), hpx::remove_if (seq), scheduler throughput - steal (parallel_executor).
+
+### Pull requests that changed performance
+
+The commits after which a measurement changed for good since v2.0.0, and at least the last 20.
+
+![pull requests](pull-requests.svg)
+
+| Pull request | Merged | Measurement | Change |
+| --- | --- | --- | --- |
+| [#8034](https://github.com/TheHPXProject/hpx/pull/8034) | [2026-11-14](../2026/medusa00/20261114T002158Z-4df84c175b63-b0/README.md) | scheduler throughput - spawnself (parallel_executor) | -21% |
+|  |  | scheduler throughput - spawn (parallel_executor) | -19% |
+| [#7815](https://github.com/TheHPXProject/hpx/pull/7815) | [2026-11-08](../2026/medusa00/20261108T210210Z-29e648ba019b-b0/README.md) | hpx::partial_sort, size: 1000, step: 1 (par) | -5% |
+| [#7963](https://github.com/TheHPXProject/hpx/pull/7963) | [2026-11-07](../2026/medusa00/20261107T201452Z-f7df98473ccc-b0/README.md) | transform_reduce (par) | -8% |
+|  |  | transform_reduce_old (par) | -8% |
+|  |  | hpx::heap_until (par) | +6% |
+| [#7949](https://github.com/TheHPXProject/hpx/pull/7949) | [2026-10-31](../2026/medusa00/20261031T215646Z-122f97511ef4-b0/README.md) | hpx::heap_until (seq) | +67% |
+|  |  | hpx::merge (par_unseq) | +19% |
+|  |  | hpx::is_heap (par) | -16% |
+|  |  | hpx::merge (par) | +12% |
+| [#7948](https://github.com/TheHPXProject/hpx/pull/7948) | [2026-10-31](../2026/medusa00/20261031T215629Z-48e2d1ece9e7-b0/README.md) | hpx::heap_until (par) | -24% |
+| [#7856](https://github.com/TheHPXProject/hpx/pull/7856) | [2026-10-31](../2026/medusa00/20261031T151324Z-1a5b15496b23-b0/README.md) | scheduler latency - sparse (post) | -61% |
+|  |  | scheduler throughput - spawnself (parallel_executor) | -35% |
+|  |  | scheduler latency - batch (parallel_executor) | -35% |
+|  |  | Stream benchmark - Add (parallel_executor_default_parallel_policy_allocator) | +13% |
+| [#7926](https://github.com/TheHPXProject/hpx/pull/7926) | [2026-10-31](../2026/medusa00/20261031T113857Z-4b2db341e39e-b0/README.md) | hpx::small_vector (int, 16) | -36% |
+|  |  | hpx::nth_element, size: 1000, step: 1 (seq) | +55% |
+|  |  | hpx::nth_element, size: 100000, step: 5000 (seq) | +19% |
+|  |  | hpx::small_vector (int, 8) | -15% |
+|  |  | hpx::remove (par) | +14% |
+|  |  | hpx::small_vector (fxn:void(), 8) | -6% |
+|  |  | hpx::partial_sort, size: 1000, step: 1 (seq) | +5% |
+| [#7872](https://github.com/TheHPXProject/hpx/pull/7872) | [2026-10-27](../2026/medusa00/20261027T113128Z-d6cd9372b23e-b0/README.md) | future overhead - create_thread_hierarchical - latch (no-executor) | -7% |
+| [#7879](https://github.com/TheHPXProject/hpx/pull/7879) | [2026-10-26](../2026/medusa00/20261026T210937Z-2acdd1c7de18-b0/README.md) | hpx::merge (par_unseq) | -5% |
+| [#7864](https://github.com/TheHPXProject/hpx/pull/7864) | [2026-10-26](../2026/medusa00/20261026T102649Z-ff9e673a5887-b0/README.md) | hpx::small_vector (fxn:void(), 4) | +5% |
+| [#7855](https://github.com/TheHPXProject/hpx/pull/7855) | [2026-10-25](../2026/medusa00/20261025T224744Z-04ee6268abd7-b0/README.md) | hpx::small_vector (fxn:void(), 4) | -5% |
+| [#7828](https://github.com/TheHPXProject/hpx/pull/7828) | [2026-10-25](../2026/medusa00/20261025T224510Z-6b30e62af6bf-b0/README.md) | hpx::nth_element, size: 100000, step: 5000 (seq) | -6% |
+| [#7845](https://github.com/TheHPXProject/hpx/pull/7845) | [2026-10-24](../2026/medusa00/20261024T140557Z-5741795e5c3a-b10/README.md) | hpx::nth_element, size: 100000, step: 5000 (seq) | -6% |
+
 ### benchmark_inplace_merge
 
 ![benchmark_inplace_merge](benchmark_inplace_merge.svg)
@@ -163,6 +210,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [4bee1ae72437](../2026/medusa00/20261114T020954Z-4bee1ae72437-b0/README.md) | [#8066](https://github.com/TheHPXProject/hpx/pull/8066) | hpx::nth_element, size: 100000, step: 5000 (par) | +14% |
 |  | [1e47bfebd8ff](../2026/medusa00/20261114T003237Z-1e47bfebd8ff-b0/README.md) | [#7910](https://github.com/TheHPXProject/hpx/pull/7910) | hpx::nth_element, size: 100000, step: 5000 (par) | -12% |
 |  | [7cfd4dd80a94](../2026/medusa00/20261114T003142Z-7cfd4dd80a94-b0/README.md) | [#8004](https://github.com/TheHPXProject/hpx/pull/8004) | hpx::nth_element, size: 100000, step: 5000 (par) | +12% |
 |  | [4df84c175b63](../2026/medusa00/20261114T002158Z-4df84c175b63-b0/README.md) | [#8034](https://github.com/TheHPXProject/hpx/pull/8034) | hpx::nth_element, size: 100000, step: 5000 (par) | -10% |
@@ -227,6 +275,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [4bee1ae72437](../2026/medusa00/20261114T020954Z-4bee1ae72437-b0/README.md) | [#8066](https://github.com/TheHPXProject/hpx/pull/8066) | hpx::partial_sort, size: 100000 (seq) | -6% |
 | 8 | [678a4a862858](../2026/medusa00/20261114T003403Z-678a4a862858-b0/README.md) | [#7983](https://github.com/TheHPXProject/hpx/pull/7983) | hpx::partial_sort, size: 100000 (seq) | +59% |
 |  | [1e47bfebd8ff](../2026/medusa00/20261114T003237Z-1e47bfebd8ff-b0/README.md) | [#7910](https://github.com/TheHPXProject/hpx/pull/7910) | hpx::partial_sort, size: 100000 (seq) | -30% |
 |  | [7cfd4dd80a94](../2026/medusa00/20261114T003142Z-7cfd4dd80a94-b0/README.md) | [#8004](https://github.com/TheHPXProject/hpx/pull/8004) | hpx::partial_sort, size: 100000 (seq) | -8% |
