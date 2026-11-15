@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "a3c0afd3355628c85308fcd29474c3de51473d25",
+    "parents": [
+      "c3640f63f0afe7c6528d64aabc70ed96f041bd92",
+      "73504676a240f8233bdc1caeb9b2e899e32d37c2"
+    ],
+    "subject": "Merge pull request #8000 from Charan6924/fix/segmented-binary-transform",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-14T13:47:07-06:00",
+    "committer_date": "2026-11-14T13:47:07-06:00",
+    "pull_request": 8000,
+    "first_parent_count": 14344
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-15T03:36:47Z",
+    "finished": "2026-11-15T04:02:41Z",
+    "recorded": "2026-11-15T04:02:41+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
