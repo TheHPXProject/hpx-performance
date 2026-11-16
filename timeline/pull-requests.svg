@@ -398,28 +398,23 @@ z
    </g>
    <g id="PathCollection_9">
     <g clip-path="url(#p1a8f1ed7eb)">
-     <use xlink:href="#m0e2d9cb0fe" x="210.496982" y="144.044471" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
+     <use xlink:href="#m1ca79ca928" x="294.126526" y="144.044471" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
    <g id="PathCollection_10">
     <g clip-path="url(#p1a8f1ed7eb)">
-     <use xlink:href="#m1ca79ca928" x="294.126526" y="144.044471" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
-    </g>
-   </g>
-   <g id="PathCollection_11">
-    <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="244.974871" y="144.044471" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_12">
+   <g id="PathCollection_11">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="252.283297" y="144.044471" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
    <g id="text_28">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="145.747674" transform="rotate(-0 372.63456 145.747674)">4, largest +67% hpx::heap_until (seq)</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="145.747674" transform="rotate(-0 372.63456 145.747674)">3, largest +67% hpx::heap_until (seq)</text>
    </g>
-   <g id="PathCollection_13">
+   <g id="PathCollection_12">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="197.741556" y="161.720047" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -427,22 +422,22 @@ z
    <g id="text_29">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="163.42325" transform="rotate(-0 372.63456 163.42325)">1: -24% hpx::heap_until (par)</text>
    </g>
-   <g id="PathCollection_14">
+   <g id="PathCollection_13">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="246.157874" y="179.395624" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_15">
+   <g id="PathCollection_14">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="178.892598" y="179.395624" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_16">
+   <g id="PathCollection_15">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="116.775717" y="179.395624" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_17">
+   <g id="PathCollection_16">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="178.474408" y="179.395624" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -450,7 +445,7 @@ z
    <g id="text_30">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="181.189217" transform="rotate(-0 372.63456 181.189217)">4, largest -61% scheduler latency - sparse (post)</text>
    </g>
-   <g id="PathCollection_18">
+   <g id="PathCollection_17">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="213.878672" y="197.0712" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -458,45 +453,40 @@ z
    <g id="text_31">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="198.774403" transform="rotate(-0 372.63456 198.774403)">1: -13% hpx::partial_sort, size: 100000 (par)</text>
    </g>
-   <g id="PathCollection_19">
+   <g id="PathCollection_18">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="285.285282" y="214.746776" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_20">
+   <g id="PathCollection_19">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="253.173816" y="214.746776" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_21">
+   <g id="PathCollection_20">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="237.64151" y="214.746776" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_22">
-    <g clip-path="url(#p1a8f1ed7eb)">
-     <use xlink:href="#m1ca79ca928" x="247.813613" y="214.746776" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
-    </g>
-   </g>
-   <g id="PathCollection_23">
+   <g id="PathCollection_21">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="223.790074" y="214.746776" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_24">
+   <g id="PathCollection_22">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="177.015834" y="214.746776" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
    </g>
-   <g id="PathCollection_25">
+   <g id="PathCollection_23">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="212.007471" y="214.746776" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
    </g>
    <g id="text_32">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="216.44998" transform="rotate(-0 372.63456 216.44998)">7, largest -36% hpx::small_vector (int, 16)</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="216.44998" transform="rotate(-0 372.63456 216.44998)">6, largest -36% hpx::small_vector (int, 16)</text>
    </g>
-   <g id="PathCollection_26">
+   <g id="PathCollection_24">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="239.05963" y="232.422353" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
@@ -504,7 +494,7 @@ z
    <g id="text_33">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="234.125556" transform="rotate(-0 372.63456 234.125556)">1: +6% hpx::partial_sort, size: 100000 (par)</text>
    </g>
-   <g id="PathCollection_27">
+   <g id="PathCollection_25">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="222.401096" y="250.097929" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -512,7 +502,7 @@ z
    <g id="text_34">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="251.801133" transform="rotate(-0 372.63456 251.801133)">1: -7% future overhead - create_thread_hierarchical - latch (no-executo…</text>
    </g>
-   <g id="PathCollection_28">
+   <g id="PathCollection_26">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="224.684219" y="267.773506" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -520,7 +510,7 @@ z
    <g id="text_35">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="269.476709" transform="rotate(-0 372.63456 269.476709)">1: -5% hpx::merge (par_unseq)</text>
    </g>
-   <g id="PathCollection_29">
+   <g id="PathCollection_27">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m1ca79ca928" x="237.535154" y="285.449082" style="fill: #d62728; fill-opacity: 0.8; stroke: #d62728; stroke-opacity: 0.8"/>
     </g>
@@ -528,7 +518,7 @@ z
    <g id="text_36">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="287.152285" transform="rotate(-0 372.63456 287.152285)">1: +5% hpx::small_vector (fxn:void(), 4)</text>
    </g>
-   <g id="PathCollection_30">
+   <g id="PathCollection_28">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="224.831918" y="303.124659" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -536,7 +526,7 @@ z
    <g id="text_37">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="304.827862" transform="rotate(-0 372.63456 304.827862)">1: -5% hpx::small_vector (fxn:void(), 4)</text>
    </g>
-   <g id="PathCollection_31">
+   <g id="PathCollection_29">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="223.855569" y="320.800235" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
@@ -544,7 +534,7 @@ z
    <g id="text_38">
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="372.63456" y="322.503438" transform="rotate(-0 372.63456 322.503438)">1: -6% hpx::nth_element, size: 100000, step: 5000 (seq)</text>
    </g>
-   <g id="PathCollection_32">
+   <g id="PathCollection_30">
     <g clip-path="url(#p1a8f1ed7eb)">
      <use xlink:href="#m0e2d9cb0fe" x="223.414159" y="338.475812" style="fill: #2ca02c; fill-opacity: 0.8; stroke: #2ca02c; stroke-opacity: 0.8"/>
     </g>
