@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "91e09fba73d975258470b0fa2946c1f5f652306d",
+    "parents": [
+      "e717b479d43d9a672570a208497d486bab4c8a54",
+      "2c5a0e0ffe22e94526d60725f4a3a2b17816e50b"
+    ],
+    "subject": "Merge pull request #8076 from Izpiz06/datapar-copy-if",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-15T18:37:02-06:00",
+    "committer_date": "2026-11-15T18:37:02-06:00",
+    "pull_request": 8076,
+    "first_parent_count": 14364
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-16T02:40:01Z",
+    "finished": "2026-11-16T03:06:02Z",
+    "recorded": "2026-11-16T03:06:02+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
