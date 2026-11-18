@@ -48,6 +48,8 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [5169e70c5385](../2026/medusa00/20261118T163123Z-5169e70c5385-b0/README.md) | [#8138](https://github.com/TheHPXProject/hpx/pull/8138) | hpx::inplace_merge (par) | -11% |
+|  |  |  | hpx::inplace_merge (par_unseq) | -8% |
 |  | [7d08d4adcc4d](../2026/medusa00/20261118T162954Z-7d08d4adcc4d-b0/README.md) | [#8132](https://github.com/TheHPXProject/hpx/pull/8132) | hpx::inplace_merge (par) | +13% |
 |  |  |  | hpx::inplace_merge (par_unseq) | +9% |
 |  | [70dbd992fade](../2026/medusa00/20261117T023759Z-70dbd992fade-b0/README.md) | [#8111](https://github.com/TheHPXProject/hpx/pull/8111) | hpx::inplace_merge (par) | -11% |
