@@ -890,6 +890,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [1865961b7646](2026/medusa00/20261119T005022Z-1865961b7646-b0/README.md) | [#8154](https://github.com/TheHPXProject/hpx/pull/8154) | scheduler throughput - spawnself (parallel_executor) | +6% |
 |  | [2ad23f352fcc](2026/medusa00/20261118T173721Z-2ad23f352fcc-b0/README.md) | [#7952](https://github.com/TheHPXProject/hpx/pull/7952) | scheduler throughput - spawnself (parallel_executor) | -7% |
 |  | [7d08d4adcc4d](2026/medusa00/20261118T162954Z-7d08d4adcc4d-b0/README.md) | [#8132](https://github.com/TheHPXProject/hpx/pull/8132) | scheduler throughput - spawnself (parallel_executor) | +7% |
 |  | [4bb510be7551](2026/medusa00/20261118T162831Z-4bb510be7551-b0/README.md) | [#8131](https://github.com/TheHPXProject/hpx/pull/8131) | scheduler throughput - spawnself (parallel_executor) | -7% |
