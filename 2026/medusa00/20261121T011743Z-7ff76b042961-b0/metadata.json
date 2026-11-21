@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "7ff76b0429616f3d9fcb8e955b15f2781f9918ed",
+    "parents": [
+      "c4ed06bad07073ae3c83784150d98ff8d6a42fed",
+      "8495a299b36dd0283dc876699af3aa580b85f7e1"
+    ],
+    "subject": "Merge pull request #8153 from hkaiser/fix-nvcc-create-component",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-20T19:17:43-06:00",
+    "committer_date": "2026-11-20T19:17:43-06:00",
+    "pull_request": 8153,
+    "first_parent_count": 14406
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-21T22:20:42Z",
+    "finished": "2026-11-21T22:46:49Z",
+    "recorded": "2026-11-21T22:46:49+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
