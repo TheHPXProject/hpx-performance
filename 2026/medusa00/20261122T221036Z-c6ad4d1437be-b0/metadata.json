@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "c6ad4d1437be19ca819594182f4da43840043cdf",
+    "parents": [
+      "422b332dde5b8d1c0700a76edbaeda329fd2456f",
+      "f92678e5727f14b16691fa3de7982c5d354c5f62"
+    ],
+    "subject": "Merge pull request #8163 from divyanshitalreja12/fix/condition-variable-late-wakeup-7916",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-22T16:10:36-06:00",
+    "committer_date": "2026-11-22T16:10:36-06:00",
+    "pull_request": 8163,
+    "first_parent_count": 14432
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-23T02:52:31Z",
+    "finished": "2026-11-23T03:16:03Z",
+    "recorded": "2026-11-23T03:16:03+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "extra_data_benchmark",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
