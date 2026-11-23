@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "7a208e7d860f90926fdaa45b53d495d6f7a76855",
+    "parents": [
+      "68c527c67bfaa2407cded347fb4a37d3c80a06d7",
+      "18d0c32709c82575df052da6ffd1c8c71ad8591d"
+    ],
+    "subject": "Merge pull request #8196 from TheHPXProject/agents-md-conventions",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-22T16:46:43-06:00",
+    "committer_date": "2026-11-22T16:46:43-06:00",
+    "pull_request": 8196,
+    "first_parent_count": 14436
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-23T04:32:57Z",
+    "finished": "2026-11-23T04:56:33Z",
+    "recorded": "2026-11-23T04:56:34+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "extra_data_benchmark",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
