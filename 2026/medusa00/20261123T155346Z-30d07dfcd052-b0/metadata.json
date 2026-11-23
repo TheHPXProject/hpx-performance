@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "30d07dfcd05234f3a427eaa4784f4868d6261228",
+    "parents": [
+      "a22c833fb46b9d57c656aec5a0efacac4bb1b6b6",
+      "42545669edbc9ff03cfe8196704601f69681fc4e"
+    ],
+    "subject": "Merge pull request #8170 from iemAnshuman/parcelset-optimistic-archive",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-23T09:53:46-06:00",
+    "committer_date": "2026-11-23T09:53:46-06:00",
+    "pull_request": 8170,
+    "first_parent_count": 14443
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-23T19:47:00Z",
+    "finished": "2026-11-23T20:13:32Z",
+    "recorded": "2026-11-23T20:13:32+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "extra_data_benchmark",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
