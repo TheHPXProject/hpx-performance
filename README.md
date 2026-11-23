@@ -21,7 +21,7 @@ The lasting changes: a step of more than 5% between the median of 5 runs and tha
 
 ![since v2.0.0](timeline/overview-v2.0.0.svg)
 
-Measurements whose level goes up and down, so that their changes are not attributed to pull requests: hpx::heap_until (par_unseq), hpx::heap_until (seq), hpx::inplace_merge (par), hpx::inplace_merge (par_unseq), hpx::is_heap (par), hpx::is_heap (par_unseq), hpx::is_heap (seq), hpx::nth_element, size: 1000, step: 1 (seq), hpx::nth_element, size: 100000, step: 5000 (par), hpx::nth_element, size: 100000, step: 5000 (seq), hpx::partial_sort, size: 100000 (seq), hpx::partial_sort, size: 100000, step: 1000 (par), hpx::remove (par), hpx::remove (par_unseq), hpx::remove_if (par_unseq), hpx::remove_if (seq), scheduler throughput - spawn (parallel_executor), scheduler throughput - steal (parallel_executor).
+Measurements whose level goes up and down, so that their changes are not attributed to pull requests: hpx::heap_until (par_unseq), hpx::heap_until (seq), hpx::inplace_merge (par), hpx::inplace_merge (par_unseq), hpx::is_heap (par), hpx::is_heap (par_unseq), hpx::is_heap (seq), hpx::nth_element, size: 1000, step: 1 (seq), hpx::nth_element, size: 100000, step: 5000 (par), hpx::nth_element, size: 100000, step: 5000 (seq), hpx::partial_sort, size: 100000 (par), hpx::partial_sort, size: 100000 (seq), hpx::partial_sort, size: 100000, step: 1000 (par), hpx::remove (par), hpx::remove (par_unseq), hpx::remove_if (par_unseq), hpx::remove_if (seq), scheduler throughput - spawn (parallel_executor), scheduler throughput - steal (parallel_executor).
 
 ### Pull requests that changed performance
 
@@ -31,7 +31,6 @@ The commits after which a measurement changed for good since v2.0.0, and at leas
 
 | Pull request | Merged | Measurement | Change |
 | --- | --- | --- | --- |
-| [#8181](https://github.com/TheHPXProject/hpx/pull/8181) | [2026-11-22](2026/medusa00/20261122T220537Z-7b3a3f0fd05e-b0/README.md) | hpx::partial_sort, size: 100000 (par) | -5% |
 | [#8134](https://github.com/TheHPXProject/hpx/pull/8134) | [2026-11-22](2026/medusa00/20261122T015611Z-4241485718db-b0/README.md) | hpx::util::extra_data::get (new object) | -7% |
 | [#8092](https://github.com/TheHPXProject/hpx/pull/8092) | [2026-11-15](2026/medusa00/20261115T142802Z-41b78d5465db-b0/README.md) | scheduler throughput - spawnself (parallel_executor) | +7% |
 | [#8034](https://github.com/TheHPXProject/hpx/pull/8034) | [2026-11-14](2026/medusa00/20261114T002158Z-4df84c175b63-b0/README.md) | scheduler throughput - spawnself (parallel_executor) | -21% |
@@ -46,12 +45,10 @@ The commits after which a measurement changed for good since v2.0.0, and at leas
 |  |  | scheduler throughput - spawnself (parallel_executor) | -35% |
 |  |  | scheduler latency - batch (parallel_executor) | -35% |
 |  |  | Stream benchmark - Add (parallel_executor_default_parallel_policy_allocator) | +13% |
-| [#7918](https://github.com/TheHPXProject/hpx/pull/7918) | [2026-10-31](2026/medusa00/20261031T114057Z-85ed2bc23e4d-b0/README.md) | hpx::partial_sort, size: 100000 (par) | -13% |
 | [#7926](https://github.com/TheHPXProject/hpx/pull/7926) | [2026-10-31](2026/medusa00/20261031T113857Z-4b2db341e39e-b0/README.md) | hpx::small_vector (int, 16) | -36% |
 |  |  | hpx::small_vector (int, 8) | -15% |
 |  |  | hpx::small_vector (fxn:void(), 8) | -6% |
 |  |  | hpx::partial_sort, size: 1000, step: 1 (seq) | +5% |
-| [#7848](https://github.com/TheHPXProject/hpx/pull/7848) | [2026-10-27](2026/medusa00/20261027T135959Z-d13eb7506802-b0/README.md) | hpx::partial_sort, size: 100000 (par) | +6% |
 | [#7872](https://github.com/TheHPXProject/hpx/pull/7872) | [2026-10-27](2026/medusa00/20261027T113128Z-d6cd9372b23e-b0/README.md) | future overhead - create_thread_hierarchical - latch (no-executor) | -7% |
 | [#7879](https://github.com/TheHPXProject/hpx/pull/7879) | [2026-10-26](2026/medusa00/20261026T210937Z-2acdd1c7de18-b0/README.md) | hpx::merge (par_unseq) | -5% |
 | [#7864](https://github.com/TheHPXProject/hpx/pull/7864) | [2026-10-26](2026/medusa00/20261026T102649Z-ff9e673a5887-b0/README.md) | hpx::small_vector (fxn:void(), 4) | +5% |
