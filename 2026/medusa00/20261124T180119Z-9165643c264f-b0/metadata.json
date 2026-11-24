@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "9165643c264f184dce3a4edcc29981ef77cbdf0b",
+    "parents": [
+      "556662219a90770d711486a75bc52f5368dc03f5",
+      "a2fdcb660528fb78b9d8b574024991c2d04406f5"
+    ],
+    "subject": "Merge pull request #8165 from hkaiser/device-conduit",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-24T12:01:19-06:00",
+    "committer_date": "2026-11-24T12:01:19-06:00",
+    "pull_request": 8165,
+    "first_parent_count": 14453
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-24T23:20:59Z",
+    "finished": "2026-11-24T23:47:29Z",
+    "recorded": "2026-11-24T23:47:30+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "extra_data_benchmark",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
