@@ -147,12 +147,12 @@ L 482.94 19.872
    </g>
    <g id="line2d_13">
     <path d="M 482.94 32.6232 
-L 506.840428 32.6232 
+L 506.839743 32.6232 
 " clip-path="url(#p096860ff2a)" style="fill: none; stroke: #d62728; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="line2d_14">
     <path d="M 482.94 58.1256 
-L 506.429654 58.1256 
+L 506.747536 58.1256 
 " clip-path="url(#p096860ff2a)" style="fill: none; stroke: #d62728; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="line2d_15">
@@ -162,7 +162,7 @@ L 452.293476 83.628
    </g>
    <g id="line2d_16">
     <path d="M 482.94 109.1304 
-L 448.027105 109.1304 
+L 447.390739 109.1304 
 " clip-path="url(#p096860ff2a)" style="fill: none; stroke: #2ca02c; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="line2d_17">
@@ -205,19 +205,19 @@ z
 " style="stroke: #d62728"/>
     </defs>
     <g clip-path="url(#p096860ff2a)">
-     <use xlink:href="#m8968767a60" x="506.840428" y="32.6232" style="fill: #d62728; stroke: #d62728"/>
+     <use xlink:href="#m8968767a60" x="506.839743" y="32.6232" style="fill: #d62728; stroke: #d62728"/>
     </g>
    </g>
    <g id="text_9">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.708428" y="34.416794" transform="rotate(-0 518.708428 34.416794)">+6%</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.707743" y="34.416794" transform="rotate(-0 518.707743 34.416794)">+6%</text>
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p096860ff2a)">
-     <use xlink:href="#m8968767a60" x="506.429654" y="58.1256" style="fill: #d62728; stroke: #d62728"/>
+     <use xlink:href="#m8968767a60" x="506.747536" y="58.1256" style="fill: #d62728; stroke: #d62728"/>
     </g>
    </g>
    <g id="text_10">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.297654" y="59.919194" transform="rotate(-0 518.297654 59.919194)">+6%</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.615536" y="59.919194" transform="rotate(-0 518.615536 59.919194)">+6%</text>
    </g>
    <g id="PathCollection_3">
     <defs>
@@ -242,11 +242,11 @@ z
    </g>
    <g id="PathCollection_4">
     <g clip-path="url(#p096860ff2a)">
-     <use xlink:href="#m7978cd0e5a" x="448.027105" y="109.1304" style="fill: #2ca02c; stroke: #2ca02c"/>
+     <use xlink:href="#m7978cd0e5a" x="447.390739" y="109.1304" style="fill: #2ca02c; stroke: #2ca02c"/>
     </g>
    </g>
    <g id="text_12">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="436.159105" y="110.923994" transform="rotate(-0 436.159105 110.923994)">-8%</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="435.522739" y="110.923994" transform="rotate(-0 435.522739 110.923994)">-8%</text>
    </g>
    <g id="PathCollection_5">
     <g clip-path="url(#p096860ff2a)">
@@ -257,7 +257,7 @@ z
     <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="425.714799" y="136.426394" transform="rotate(-0 425.714799 136.426394)">-10%</text>
    </g>
    <g id="text_14">
-    <text style="fill: #262626; font: 8px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="304.92" y="13.872" transform="rotate(-0 304.92 13.872)">since v2.0.0: 5 of 60 measurements changed by more than 5% (red slower, green faster)</text>
+    <text style="fill: #262626; font: 8px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="304.92" y="13.872" transform="rotate(-0 304.92 13.872)">since v2.0.0: 5 of 61 measurements changed by more than 5% (red slower, green faster)</text>
    </g>
   </g>
  </g>
