@@ -96,7 +96,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_4">
-      <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="297.92" y="35.092692" transform="rotate(-0 297.92 35.092692)">hpx::heap_until (par)</text>
+      <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="297.92" y="35.092692" transform="rotate(-0 297.92 35.092692)">stream benchmark - Copy (fork_join_executor_default_fork_join_policy_allocator_task_size)</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -106,7 +106,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_5">
-      <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="297.92" y="60.595092" transform="rotate(-0 297.92 60.595092)">stream benchmark - Copy (fork_join_executor_default_fork_join_policy_allocator_task_size)</text>
+      <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="297.92" y="60.595092" transform="rotate(-0 297.92 60.595092)">hpx::heap_until (par)</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -147,12 +147,12 @@ L 482.94 19.872
    </g>
    <g id="line2d_13">
     <path d="M 482.94 32.6232 
-L 506.753988 32.6232 
+L 507.090815 32.6232 
 " clip-path="url(#p096860ff2a)" style="fill: none; stroke: #d62728; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="line2d_14">
     <path d="M 482.94 58.1256 
-L 506.747536 58.1256 
+L 506.866083 58.1256 
 " clip-path="url(#p096860ff2a)" style="fill: none; stroke: #d62728; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="line2d_15">
@@ -167,7 +167,7 @@ L 447.105631 109.1304
    </g>
    <g id="line2d_17">
     <path d="M 482.94 134.6328 
-L 440.656636 134.6328 
+L 440.860824 134.6328 
 " clip-path="url(#p096860ff2a)" style="fill: none; stroke: #2ca02c; stroke-width: 1.2; stroke-linecap: round"/>
    </g>
    <g id="patch_3">
@@ -205,19 +205,19 @@ z
 " style="stroke: #d62728"/>
     </defs>
     <g clip-path="url(#p096860ff2a)">
-     <use xlink:href="#m8968767a60" x="506.753988" y="32.6232" style="fill: #d62728; stroke: #d62728"/>
+     <use xlink:href="#m8968767a60" x="507.090815" y="32.6232" style="fill: #d62728; stroke: #d62728"/>
     </g>
    </g>
    <g id="text_9">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.621988" y="34.416794" transform="rotate(-0 518.621988 34.416794)">+6%</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.958815" y="34.416794" transform="rotate(-0 518.958815 34.416794)">+6%</text>
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p096860ff2a)">
-     <use xlink:href="#m8968767a60" x="506.747536" y="58.1256" style="fill: #d62728; stroke: #d62728"/>
+     <use xlink:href="#m8968767a60" x="506.866083" y="58.1256" style="fill: #d62728; stroke: #d62728"/>
     </g>
    </g>
    <g id="text_10">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.615536" y="59.919194" transform="rotate(-0 518.615536 59.919194)">+6%</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="518.734083" y="59.919194" transform="rotate(-0 518.734083 59.919194)">+6%</text>
    </g>
    <g id="PathCollection_3">
     <defs>
@@ -250,11 +250,11 @@ z
    </g>
    <g id="PathCollection_5">
     <g clip-path="url(#p096860ff2a)">
-     <use xlink:href="#m7978cd0e5a" x="440.656636" y="134.6328" style="fill: #2ca02c; stroke: #2ca02c"/>
+     <use xlink:href="#m7978cd0e5a" x="440.860824" y="134.6328" style="fill: #2ca02c; stroke: #2ca02c"/>
     </g>
    </g>
    <g id="text_13">
-    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="428.788636" y="136.426394" transform="rotate(-0 428.788636 136.426394)">-9%</text>
+    <text style="fill: #262626; font: 6.5px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: end" x="428.992824" y="136.426394" transform="rotate(-0 428.992824 136.426394)">-9%</text>
    </g>
    <g id="text_14">
     <text style="fill: #262626; font: 8px 'Arial', 'DejaVu Sans', 'Liberation Sans', 'Bitstream Vera Sans', sans-serif; text-anchor: start" x="304.92" y="13.872" transform="rotate(-0 304.92 13.872)">since v2.0.0: 5 of 60 measurements changed by more than 5% (red slower, green faster)</text>
