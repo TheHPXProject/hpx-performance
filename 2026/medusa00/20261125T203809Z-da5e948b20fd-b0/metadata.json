@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "commit": {
+    "hash": "da5e948b20fdcfbe3b5969395545715451cc6331",
+    "parents": [
+      "e1360906c80e64560b4722fb59725bb0ce64b9d5",
+      "b3df3b64e31ceedce77d65889636a0dca7c1458e"
+    ],
+    "subject": "Merge pull request #8225 from TheHPXProject/soversion-full-version",
+    "author": "Hartmut Kaiser",
+    "author_date": "2026-11-25T14:38:09-06:00",
+    "committer_date": "2026-11-25T14:38:09-06:00",
+    "pull_request": 8225,
+    "first_parent_count": 14465
+  },
+  "branch": "master",
+  "run": {
+    "node": "medusa00",
+    "started": "2026-11-28T01:53:54Z",
+    "finished": "2026-11-28T02:21:48Z",
+    "recorded": "2026-11-28T02:21:48+00:00",
+    "jenkins_build": "",
+    "jenkins_build_url": "",
+    "status": 0,
+    "failed_steps": [],
+    "benchmarks": [
+      "benchmark_inplace_merge",
+      "benchmark_is_heap",
+      "benchmark_is_heap_until",
+      "benchmark_merge",
+      "benchmark_nth_element",
+      "benchmark_nth_element_parallel",
+      "benchmark_partial_sort",
+      "benchmark_partial_sort_parallel",
+      "benchmark_remove",
+      "benchmark_remove_if",
+      "extra_data_benchmark",
+      "foreach_report",
+      "future_overhead_report",
+      "scheduler_latency_report",
+      "scheduler_throughput_report",
+      "small_vector_benchmark",
+      "stream_report",
+      "transform_reduce_scaling"
+    ]
+  },
+  "configuration": {
+    "compiler": "/opt/apps/llvm/18.1.8/bin/clang++",
+    "configure_options": [
+      "-DHPX_WITH_CXX_STANDARD=20",
+      "-DHPX_WITH_MALLOC=system",
+      "-DHPX_WITH_FETCH_ASIO=ON",
+      "-DHPX_WITH_TESTS_RUN_BENCHMARKS=ON"
+    ]
+  }
+}
