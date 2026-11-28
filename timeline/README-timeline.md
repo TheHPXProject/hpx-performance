@@ -50,6 +50,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [8ef506472cc2](../2026/medusa00/20261127T231620Z-8ef506472cc2-b0/README.md) | [#8255](https://github.com/TheHPXProject/hpx/pull/8255) | hpx::inplace_merge (par_unseq) | +5% |
 |  | [39256b1ef0c7](../2026/medusa00/20261127T231539Z-39256b1ef0c7-b0/README.md) | [#8241](https://github.com/TheHPXProject/hpx/pull/8241) | hpx::inplace_merge (par) | +5% |
 |  | [da5e948b20fd](../2026/medusa00/20261125T203809Z-da5e948b20fd-b0/README.md) | [#8225](https://github.com/TheHPXProject/hpx/pull/8225) | hpx::inplace_merge (par) | -17% |
 |  |  |  | hpx::inplace_merge (par_unseq) | -5% |
@@ -248,6 +249,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [8ef506472cc2](../2026/medusa00/20261127T231620Z-8ef506472cc2-b0/README.md) | [#8255](https://github.com/TheHPXProject/hpx/pull/8255) | hpx::nth_element, size: 100000, step: 5000 (seq) | -5% |
 |  | [11d4e93012fa](../2026/medusa00/20261125T203826Z-11d4e93012fa-b0/README.md) | [#8226](https://github.com/TheHPXProject/hpx/pull/8226) | hpx::nth_element, size: 100000, step: 5000 (seq) | +7% |
 | 8 | [da5e948b20fd](../2026/medusa00/20261125T203809Z-da5e948b20fd-b0/README.md) | [#8225](https://github.com/TheHPXProject/hpx/pull/8225) | hpx::nth_element, size: 1000, step: 1 (seq) | -31% |
 |  |  |  | hpx::nth_element, size: 100000, step: 5000 (seq) | -22% |
@@ -342,6 +344,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+| 8 | [8ef506472cc2](../2026/medusa00/20261127T231620Z-8ef506472cc2-b0/README.md) | [#8255](https://github.com/TheHPXProject/hpx/pull/8255) | hpx::nth_element, size: 100000, step: 5000 (par) | +21% |
 |  | [46d04202c56c](../2026/medusa00/20261127T231415Z-46d04202c56c-b0/README.md) | [#8233](https://github.com/TheHPXProject/hpx/pull/8233) | hpx::nth_element, size: 100000, step: 5000 (par) | -18% |
 |  | [11d4e93012fa](../2026/medusa00/20261125T203826Z-11d4e93012fa-b0/README.md) | [#8226](https://github.com/TheHPXProject/hpx/pull/8226) | hpx::nth_element, size: 100000, step: 5000 (par) | +7% |
 |  | [da5e948b20fd](../2026/medusa00/20261125T203809Z-da5e948b20fd-b0/README.md) | [#8225](https://github.com/TheHPXProject/hpx/pull/8225) | hpx::nth_element, size: 100000, step: 5000 (par) | -7% |
@@ -355,7 +358,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 |  | [556662219a90](../2026/medusa00/20261124T175811Z-556662219a90-b0/README.md) | [#8219](https://github.com/TheHPXProject/hpx/pull/8219) | hpx::nth_element, size: 100000, step: 5000 (par) | -11% |
 |  | [3adb08ea34c9](../2026/medusa00/20261124T175751Z-3adb08ea34c9-b0/README.md) | [#8215](https://github.com/TheHPXProject/hpx/pull/8215) | hpx::nth_element, size: 100000, step: 5000 (par) | +10% |
 |  | [39fa1841157c](../2026/medusa00/20261124T175726Z-39fa1841157c-b0/README.md) | [#8214](https://github.com/TheHPXProject/hpx/pull/8214) | hpx::nth_element, size: 100000, step: 5000 (par) | -7% |
-| 8 | [c571037b4ac3](../2026/medusa00/20261123T223548Z-c571037b4ac3-b0/README.md) | [#8204](https://github.com/TheHPXProject/hpx/pull/8204) | hpx::nth_element, size: 100000, step: 5000 (par) | +21% |
+|  | [c571037b4ac3](../2026/medusa00/20261123T223548Z-c571037b4ac3-b0/README.md) | [#8204](https://github.com/TheHPXProject/hpx/pull/8204) | hpx::nth_element, size: 100000, step: 5000 (par) | +21% |
 |  | [b88071826106](../2026/medusa00/20261123T223419Z-b88071826106-b0/README.md) | [#8203](https://github.com/TheHPXProject/hpx/pull/8203) | hpx::nth_element, size: 100000, step: 5000 (par) | -18% |
 |  | [7dfcaca610c6](../2026/medusa00/20261123T155526Z-7dfcaca610c6-b0/README.md) | [#8162](https://github.com/TheHPXProject/hpx/pull/8162) | hpx::nth_element, size: 100000, step: 5000 (par) | +11% |
 |  | [a22c833fb46b](../2026/medusa00/20261123T155042Z-a22c833fb46b-b0/README.md) | [#8191](https://github.com/TheHPXProject/hpx/pull/8191) | hpx::nth_element, size: 100000, step: 5000 (par) | +11% |
@@ -459,6 +462,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [8ef506472cc2](../2026/medusa00/20261127T231620Z-8ef506472cc2-b0/README.md) | [#8255](https://github.com/TheHPXProject/hpx/pull/8255) | hpx::partial_sort, size: 100000 (seq) | +9% |
 |  | [39256b1ef0c7](../2026/medusa00/20261127T231539Z-39256b1ef0c7-b0/README.md) | [#8241](https://github.com/TheHPXProject/hpx/pull/8241) | hpx::partial_sort, size: 100000 (seq) | +15% |
 |  | [b9a1a82038ec](../2026/medusa00/20261125T204221Z-b9a1a82038ec-b0/README.md) | [#8136](https://github.com/TheHPXProject/hpx/pull/8136) | hpx::partial_sort, size: 100000 (seq) | -21% |
 |  | [b9d6a243b581](../2026/medusa00/20261125T204013Z-b9d6a243b581-b0/README.md) | [#8201](https://github.com/TheHPXProject/hpx/pull/8201) | hpx::partial_sort, size: 100000 (seq) | +13% |
