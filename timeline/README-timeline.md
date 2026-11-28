@@ -16,6 +16,7 @@ The commits after which a measurement changed for good since v2.0.0, and at leas
 
 | Pull request | Merged | Measurement | Change |
 | --- | --- | --- | --- |
+| [#8233](https://github.com/TheHPXProject/hpx/pull/8233) | [2026-11-27](../2026/medusa00/20261127T231415Z-46d04202c56c-b0/README.md) | scheduler throughput - spawnself (parallel_executor) | +6% |
 | [#8225](https://github.com/TheHPXProject/hpx/pull/8225) | [2026-11-25](../2026/medusa00/20261125T203809Z-da5e948b20fd-b0/README.md) | hpx::remove_if (par) | +12% |
 |  |  | hpx::remove (seq) | -8% |
 |  |  | hpx::small_vector (int, 8) | +6% |
@@ -140,6 +141,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [637963332e85](../2026/medusa00/20261127T231714Z-637963332e85-b0/README.md) | [#8258](https://github.com/TheHPXProject/hpx/pull/8258) | hpx::is_heap (seq) | -17% |
 | 8 | [46d04202c56c](../2026/medusa00/20261127T231415Z-46d04202c56c-b0/README.md) | [#8233](https://github.com/TheHPXProject/hpx/pull/8233) | hpx::is_heap (seq) | +20% |
 |  | [87d025243831](../2026/medusa00/20261127T224128Z-87d025243831-b0/README.md) | [#8259](https://github.com/TheHPXProject/hpx/pull/8259) | hpx::is_heap (seq) | -17% |
 | 7 | [11d4e93012fa](../2026/medusa00/20261125T203826Z-11d4e93012fa-b0/README.md) | [#8226](https://github.com/TheHPXProject/hpx/pull/8226) | hpx::is_heap (seq) | +20% |
@@ -462,6 +464,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [637963332e85](../2026/medusa00/20261127T231714Z-637963332e85-b0/README.md) | [#8258](https://github.com/TheHPXProject/hpx/pull/8258) | hpx::partial_sort, size: 100000 (seq) | -36% |
 |  | [8ef506472cc2](../2026/medusa00/20261127T231620Z-8ef506472cc2-b0/README.md) | [#8255](https://github.com/TheHPXProject/hpx/pull/8255) | hpx::partial_sort, size: 100000 (seq) | +9% |
 |  | [39256b1ef0c7](../2026/medusa00/20261127T231539Z-39256b1ef0c7-b0/README.md) | [#8241](https://github.com/TheHPXProject/hpx/pull/8241) | hpx::partial_sort, size: 100000 (seq) | +15% |
 |  | [b9a1a82038ec](../2026/medusa00/20261125T204221Z-b9a1a82038ec-b0/README.md) | [#8136](https://github.com/TheHPXProject/hpx/pull/8136) | hpx::partial_sort, size: 100000 (seq) | -21% |
@@ -1094,6 +1097,7 @@ Medians that moved by more than 5% against the median of up to 3 runs before it,
 
 | # | Commit | Pull request | Measurement | Change |
 | --- | --- | --- | --- | --- |
+|  | [637963332e85](../2026/medusa00/20261127T231714Z-637963332e85-b0/README.md) | [#8258](https://github.com/TheHPXProject/hpx/pull/8258) | hpx::util::extra_data::get (new object) | -5% |
 | 8 | [46d04202c56c](../2026/medusa00/20261127T231415Z-46d04202c56c-b0/README.md) | [#8233](https://github.com/TheHPXProject/hpx/pull/8233) | hpx::util::extra_data::get (new object) | +9% |
 | 7 | [87d025243831](../2026/medusa00/20261127T224128Z-87d025243831-b0/README.md) | [#8259](https://github.com/TheHPXProject/hpx/pull/8259) | hpx::util::extra_data::get (new object) | -8% |
 | 6 | [da5e948b20fd](../2026/medusa00/20261125T203809Z-da5e948b20fd-b0/README.md) | [#8225](https://github.com/TheHPXProject/hpx/pull/8225) | hpx::util::extra_data::get (new object) | +6% |
