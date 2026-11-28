@@ -4,6 +4,7 @@
 
 | Commit date | Commit | Pull request | Build | Node | Status |
 | --- | --- | --- | --- | --- | --- |
+| 2026-11-27T23:15:39Z | [39256b1ef0c7](medusa00/20261127T231539Z-39256b1ef0c7-b0/README.md) | [#8241](https://github.com/TheHPXProject/hpx/pull/8241) |  | medusa00 | passed |
 | 2026-11-27T23:14:15Z | [46d04202c56c](medusa00/20261127T231415Z-46d04202c56c-b0/README.md) | [#8233](https://github.com/TheHPXProject/hpx/pull/8233) |  | medusa00 | passed |
 | 2026-11-27T22:41:28Z | [87d025243831](medusa00/20261127T224128Z-87d025243831-b0/README.md) | [#8259](https://github.com/TheHPXProject/hpx/pull/8259) |  | medusa00 | passed |
 | 2026-11-26T16:56:08Z | [97e1f2728d8b](medusa00/20261126T165608Z-97e1f2728d8b-b0/README.md) | [#8246](https://github.com/TheHPXProject/hpx/pull/8246) |  | medusa00 | passed |
